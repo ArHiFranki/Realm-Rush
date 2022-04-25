@@ -93,7 +93,7 @@ GameObject:
   - component: {fileID: 2779690041735714448}
   - component: {fileID: 2779690041735714462}
   - component: {fileID: 2779690041735714449}
-  - component: {fileID: 3143907875456444498}
+  - component: {fileID: 8843782222906412630}
   m_Layer: 0
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -169,7 +169,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2779690041735714451}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9541d86e2fd84c1d9990edf0852d74ab, type: 3}
   m_Name: 
@@ -254,7 +254,7 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_renderer: {fileID: 2779690041735714462}
   m_maskType: 0
---- !u!114 &3143907875456444498
+--- !u!114 &8843782222906412630
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -266,6 +266,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3df850c219ab2b7469b05c286d951bb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  defaultColor: {r: 1, g: 1, b: 1, a: 1}
+  blockedColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
 --- !u!1 &2779690042777399175
 GameObject:
   m_ObjectHideFlags: 0

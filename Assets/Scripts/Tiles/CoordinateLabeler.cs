@@ -9,7 +9,7 @@ using System;
 public class CoordinateLabeler : MonoBehaviour
 {
     [SerializeField] private Color defaultColor = Color.white;
-    [SerializeField] private Color blockedColor = Color.grey;
+    [SerializeField] private Color blockedColor = Color.yellow;
 
     private TextMeshPro label;
     private Vector2Int coordinates = new Vector2Int();
